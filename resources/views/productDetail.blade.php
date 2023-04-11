@@ -7,7 +7,7 @@
         .color{
             padding: 10px 30px;
             border-radius: 10px;   
-            margin-bottom: 20px;
+            margin-top: 20px;
         }
         .button{
             padding: 5px 10px;
@@ -28,6 +28,7 @@
 @section('description', 'Product Description Here')
 
 @section('container')
+    <a href="/product" class="button">Back to Main Page</a>
     @if (($product["status"] == 'R'))    
         <div class="color" style="border: 10px solid silver;">    
             <h1>{{ $product["name"] }}</h1>
@@ -61,5 +62,4 @@
         </div>
     @endif
 
-    <a href="/product" class="button">Back to Main Page</a>
 @endsection
