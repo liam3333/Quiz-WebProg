@@ -8,7 +8,6 @@ NIM     : 2502040764
 ## Deskripsi Web Profile 
 Product List dan Product Details dari quiz menggunakan Laravel. Implementasi dari controller dapat dilihat dari screenshot berikut. 
 
-Berikut adalah dokumentasi code saya, yang meliputi instalasi Bootstrap melalui library npm dan menerapkan route Laravel di web.php untuk mendirect ke halaman web lainnya seperti pada dokumentasi web di bawah ini. 
 ![Code](https://github.com/liam3333/Quiz-WebProg/blob/main/codeDocumentationQuiz.png)
 
 ## Dokumentasi Product List (Quiz)
